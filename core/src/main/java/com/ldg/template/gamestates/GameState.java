@@ -14,8 +14,8 @@ public abstract class GameState {
     protected GameStateManager gameStateManager;
 
     //Spritebatch and shaperenderer for use by all states
-    protected SpriteBatch sb;
-    protected ShapeRenderer sr;
+    public SpriteBatch sb;
+    public ShapeRenderer sr;
 
     public GameState(GameStateManager gameStateManager) {
         this.gameStateManager = gameStateManager;
